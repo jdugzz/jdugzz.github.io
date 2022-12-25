@@ -1,0 +1,20 @@
+#main-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: red;
+    
+}
+.holder {
+    max-height: 250px;
+    max-width: 250px;
+    
+}
+#cpuSide {
+    margin-left: 50px
+    margin-top: 25px
+    border-color: solid black 50px;
+}
