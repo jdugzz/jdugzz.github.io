@@ -8,13 +8,13 @@
     background-color: red;
     
 }
-.holder {
-    max-height: 250px;
-    max-width: 250px;
-    
+.img {
+    border: 2px solid black;
+    filter: blur(10px);
 }
-#cpuSide {
-    margin-left: 50px
-    margin-top: 25px
-    border-color: solid black 50px;
+
+.nonblur {
+    filter: blur(0px);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
